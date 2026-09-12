@@ -40,16 +40,14 @@ Aplikasi web untuk mengelola reservasi lapangan futsal dan badminton — menggan
 
 5 tabel inti dengan relasi sebagai berikut:
 
-![ERD SM Sport Center]()
+![Uploading Kelola Reservasi - SM Sport Center - Google Chrome 29_07_2026 04_27_05.png…]()
+
 
 - **users** — pelanggan & admin dibedakan lewat kolom `role`  
 - **lapangan** — data lapangan, harga, status, fasilitas  
 - **reservasi** — jantung sistem, dengan `UNIQUE(lapangan_id, tanggal_main, jam_mulai)` untuk mencegah double booking di level database  
 - **pembayaran** — mendukung pembayaran bertahap (DP → Pelunasan)  
 - **notifikasi** — log pengiriman notifikasi ke pelanggan
-
->   
-> 📁 Taruh file `ERD_SM_Sport_Center.png` di folder `docs/erd.png` supaya gambar di atas tampil di GitHub.
 
 ## Instalasi
 
