@@ -40,7 +40,7 @@ Aplikasi web untuk mengelola reservasi lapangan futsal dan badminton — menggan
 
 5 tabel inti dengan relasi sebagai berikut:
 
-![Uploading Kelola Reservasi - SM Sport Center - Google Chrome 29_07_2026 04_27_05.png…]()
+![gambar](public/images/logo.svg)
 
 
 - **users** — pelanggan & admin dibedakan lewat kolom `role`  
